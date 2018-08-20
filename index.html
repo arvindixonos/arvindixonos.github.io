@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl032a71bc72a24c5a8bfb84f9550439e9"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl4f89f389fcd9e593541a861913570e54"/>
   <meta charset="utf-8">
   <title>KeralaDonation</title>
   <meta name="generator" content="Google Web Designer 4.2.0.0802">
@@ -109,6 +109,10 @@ d.createStyleSheet(),d.cssText=b;else{c=d.getElementsByTagName("head")[0];if(!c)
       // GWD Predefined Function
       gwd.actions.events.setInlineStyle('gwd-imagebutton_1', 'transition: all 0.2s linear; transform: scale(1);');
     };
+    gwd.auto_Gwd_imagebutton_1Touchcancel = function(event) {
+      // GWD Predefined Function
+      gwd.actions.events.setInlineStyle('gwd-imagebutton_1', 'transition: all 0.2s linear; transform: scale(1);');
+    };
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Support code for event handling in Google Web Designer
@@ -117,11 +121,13 @@ d.createStyleSheet(),d.cssText=b;else{c=d.getElementsByTagName("head")[0];if(!c)
       gwd.actions.events.addHandler('gwd-imagebutton_1', 'click', gwd.redirect, false);
       gwd.actions.events.addHandler('gwd-imagebutton_1', 'mouseover', gwd.auto_Gwd_imagebutton_1Mouseover, false);
       gwd.actions.events.addHandler('gwd-imagebutton_1', 'mouseout', gwd.auto_Gwd_imagebutton_1Mouseout, false);
+      gwd.actions.events.addHandler('gwd-imagebutton_1', 'touchcancel', gwd.auto_Gwd_imagebutton_1Touchcancel, false);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
       gwd.actions.events.removeHandler('gwd-imagebutton_1', 'click', gwd.redirect, false);
       gwd.actions.events.removeHandler('gwd-imagebutton_1', 'mouseover', gwd.auto_Gwd_imagebutton_1Mouseover, false);
       gwd.actions.events.removeHandler('gwd-imagebutton_1', 'mouseout', gwd.auto_Gwd_imagebutton_1Mouseout, false);
+      gwd.actions.events.removeHandler('gwd-imagebutton_1', 'touchcancel', gwd.auto_Gwd_imagebutton_1Touchcancel, false);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
